@@ -1,0 +1,7 @@
+{
+  "CustomSetting": {
+    "ConnectionStrings": {
+      "NCTMPOSDbConnection": "server=.;database=NCTM_POS;user id=sa;password=sasa@123;Trust Server Certificate=true;MultipleActiveResultSets=True;"
+    }
+  }
+}
