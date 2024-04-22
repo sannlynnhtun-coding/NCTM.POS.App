@@ -9,4 +9,5 @@ namespace NCTM.POS.DataAccess.Features
     internal class DA_InvoiceDetail
     {
     }
+
 }

@@ -16,6 +16,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTM.POS.BusinessLogic", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTM.POS.DataAccess", "NCTM.POS.DataAccess\NCTM.POS.DataAccess.csproj", "{187DDC59-BCDE-475F-8A0E-36C7FBFF7A02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{FDB4F204-1EF4-445B-85A8-6C8A91D8A708}"
+	ProjectSection(SolutionItems) = preProject
+		NCTM_POSDB.md = NCTM_POSDB.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
