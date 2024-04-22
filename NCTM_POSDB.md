@@ -1,4 +1,5 @@
 ```
+
 	USE [NCTM_POS]
 GO
 /****** Object:  Table [dbo].[Tbl_Customer]    Script Date: 04/22/2024 2:58:39 PM ******/
