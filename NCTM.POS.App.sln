@@ -12,13 +12,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4477C3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCTM.POS.DbService", "NCTM.POS.DbService\NCTM.POS.DbService.csproj", "{85509A7D-6ADD-42A5-8A9D-6E3BA845684C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTM.POS.BusinessLogic", "NCTM.POS.BusinessLogic\NCTM.POS.BusinessLogic.csproj", "{04166A57-24F7-4569-9B9B-02C84E4D327B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCTM.POS.BusinessLogic", "NCTM.POS.BusinessLogic\NCTM.POS.BusinessLogic.csproj", "{04166A57-24F7-4569-9B9B-02C84E4D327B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTM.POS.DataAccess", "NCTM.POS.DataAccess\NCTM.POS.DataAccess.csproj", "{187DDC59-BCDE-475F-8A0E-36C7FBFF7A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCTM.POS.DataAccess", "NCTM.POS.DataAccess\NCTM.POS.DataAccess.csproj", "{187DDC59-BCDE-475F-8A0E-36C7FBFF7A02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{FDB4F204-1EF4-445B-85A8-6C8A91D8A708}"
 	ProjectSection(SolutionItems) = preProject
 		NCTM_POSDB.md = NCTM_POSDB.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B350E673-1153-4E71-9E53-6B77EE35E410}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TableScripts", "TableScripts", "{7322F559-5A26-4DE8-BFD5-0F9DD105488B}"
+	ProjectSection(SolutionItems) = preProject
+		Tbl_Customer.sql = Tbl_Customer.sql
+		Tbl_Product.sql = Tbl_Product.sql
+		Tbl_ProductCategory.sql = Tbl_ProductCategory.sql
+		Tbl_SaleInvoice.sql = Tbl_SaleInvoice.sql
+		Tbl_Shop.sql = Tbl_Shop.sql
+		Tbl_Staff.sql = Tbl_Staff.sql
 	EndProjectSection
 EndProject
 Global
@@ -51,6 +63,8 @@ Global
 		{85509A7D-6ADD-42A5-8A9D-6E3BA845684C} = {4477C31C-4BD7-407E-B946-865208147C00}
 		{04166A57-24F7-4569-9B9B-02C84E4D327B} = {4477C31C-4BD7-407E-B946-865208147C00}
 		{187DDC59-BCDE-475F-8A0E-36C7FBFF7A02} = {4477C31C-4BD7-407E-B946-865208147C00}
+		{B350E673-1153-4E71-9E53-6B77EE35E410} = {FDB4F204-1EF4-445B-85A8-6C8A91D8A708}
+		{7322F559-5A26-4DE8-BFD5-0F9DD105488B} = {B350E673-1153-4E71-9E53-6B77EE35E410}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86878CDF-B1B7-411C-B466-9FA685587C9C}

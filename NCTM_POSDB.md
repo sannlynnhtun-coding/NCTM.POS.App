@@ -27,6 +27,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+--------------------------------------
+
 CREATE TABLE [dbo].[Tbl_Product](
 	[ProductId] [int] IDENTITY(1,1) NOT NULL,
 	[ProductCode]  AS ('PROD'+right('000'+CONVERT([varchar](3),[ProductId]),(3))),
@@ -44,6 +46,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+-----------------------------------------
+
+
 CREATE TABLE [dbo].[Tbl_ProductCategory](
 	[ProductCategoryId] [int] IDENTITY(1,1) NOT NULL,
 	[ProductCategoryCode]  AS ('CATS'+right('000'+CONVERT([varchar](3),[ProductCategoryId]),(3))),
@@ -59,6 +64,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+----------------------------------
+
 CREATE TABLE [dbo].[Tbl_Shop](
 	[ShopId] [int] IDENTITY(1,1) NOT NULL,
 	[ShopCode]  AS ('SH'+right('000'+CONVERT([varchar](3),[ShopId]),(3))),
@@ -76,6 +83,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+------------------------------
+
 CREATE TABLE [dbo].[Tbl_Staff](
 	[StaffId] [int] IDENTITY(1,1) NOT NULL,
 	[StaffCode]  AS ('S'+right('000'+CONVERT([varchar](3),[StaffId]),(3))),
@@ -96,6 +105,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+-----------------
+
 CREATE TABLE [dbo].[Tbl_State](
 	[StateId] [int] IDENTITY(1,1) NOT NULL,
 	[StateName] [varchar](50) NOT NULL,
