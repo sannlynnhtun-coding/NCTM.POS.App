@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCTM.POS.BusinessLogic.Features
 {
-    internal class BL_InvoiceDetail
+    public class BL_InvoiceDetail
     {
     }
 }
