@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NCTM.POS.App\NCTM.POS.App.csproj" />
+    <ProjectReference Include="..\NCTM.POS.DbService\NCTM.POS.DbService.csproj" />
+  </ItemGroup>
+
+</Project>
