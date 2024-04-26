@@ -47,7 +47,7 @@ BEGIN
 
 	SET @InvoiceNo = (
 			SELECT @Code + CONCAT (
-					REPLICATE('0', @Length - LEN(@Sequence))
+					@ReplicateValue
 					,@Sequence
 					)
 			);
