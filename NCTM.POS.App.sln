@@ -24,13 +24,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B350E673-1153-4E71-9E53-6B77EE35E410}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TableScripts", "TableScripts", "{7322F559-5A26-4DE8-BFD5-0F9DD105488B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreProcedures", "StoreProcedures", "{F584F7C0-104E-4780-B33C-B881BA9AACC3}"
 	ProjectSection(SolutionItems) = preProject
-		Tbl_Customer.sql = Tbl_Customer.sql
-		Tbl_Product.sql = Tbl_Product.sql
-		Tbl_ProductCategory.sql = Tbl_ProductCategory.sql
-		Tbl_SaleInvoice.sql = Tbl_SaleInvoice.sql
-		Tbl_Shop.sql = Tbl_Shop.sql
-		Tbl_Staff.sql = Tbl_Staff.sql
+		SP_GenerateSaleInvoiceNo.sql = SP_GenerateSaleInvoiceNo.sql
 	EndProjectSection
 EndProject
 Global
@@ -65,6 +62,7 @@ Global
 		{187DDC59-BCDE-475F-8A0E-36C7FBFF7A02} = {4477C31C-4BD7-407E-B946-865208147C00}
 		{B350E673-1153-4E71-9E53-6B77EE35E410} = {FDB4F204-1EF4-445B-85A8-6C8A91D8A708}
 		{7322F559-5A26-4DE8-BFD5-0F9DD105488B} = {B350E673-1153-4E71-9E53-6B77EE35E410}
+		{F584F7C0-104E-4780-B33C-B881BA9AACC3} = {B350E673-1153-4E71-9E53-6B77EE35E410}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86878CDF-B1B7-411C-B466-9FA685587C9C}
